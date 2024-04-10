@@ -31,7 +31,7 @@ The below figure shows the effect of pre-processing algorithm on a single trajec
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm.png)
 
 The below figure shows the effect of pre-processing algorithm on different mobility metrics. 
-![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-on-mobility-metrics.png)
+![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-on-mobility-metric.png)
 
 The below figure shows the effect of pre-processing algorithm components on number of trips derived. 
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-components-on-trip#.png)
