@@ -1,5 +1,12 @@
 ## A brief introduction of various datasets for transportation applications
 
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
+
+
 | Dimensions      | Household travel survey | Traffic counts | Big mobile data |
 | :---        |    :----   |          :--- |
 | Generation      | actively collected by asking people trips they made in a day | actively collected by installing sensors that record the number of moving objects   | passively collected by records users' interaction with mobile apps |
