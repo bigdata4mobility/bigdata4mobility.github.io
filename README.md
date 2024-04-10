@@ -14,7 +14,7 @@
 ## Describe data
 
 <figure>
-    <img src="https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png" width="200" height="100"
+    <img src="https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png" width="400" height="400"
          alt="BostonData">
     <figcaption>Changes in the number of records per device over time in the Boston area.</figcaption>
 </figure>
