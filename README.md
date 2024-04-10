@@ -13,7 +13,13 @@
 
 ## Describe data
 
-![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png width="200" height="100")
+<figure>
+    <img src="https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png" width="200" height="100"
+         alt="BostonData">
+    <figcaption>Changes in the number of records per device over time in the Boston area.</figcaption>
+</figure>
+
+![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png)
 *Changes in the number of records per device over time in the Boston area*
 
 ## Data stability
