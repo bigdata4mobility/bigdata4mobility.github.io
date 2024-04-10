@@ -18,34 +18,34 @@
 
 ## Data stability
 ![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-seattle.jpg)
-*Changes in the number of devices (individuals) over time in the Seattle area*
+#### Changes in the number of devices (individuals) over time in the Seattle area
 
 ![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-seattle2.jpg)
-*Changes in the number of records per device (individual) over time in the Seattle area*
+#### Changes in the number of records per device (individual) over time in the Seattle area
 
 ![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-boston.png)
-*Changes in the number of records per device (individual) over time in the Boston area*
+#### Changes in the number of records per device (individual) over time in the Boston area
 
 ## Data quality metrics by region types
 ![quality-metrics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-quality-metrics-by-region-type.png)
-*Data quality metrics by region type*
+#### Data quality metrics by region type
 
 ![quality-metrics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/biases-in-mobility-metric-by-region-type.png)
-*Biases in various mobility metrics by region type (bias is calculated as the absolute percentage difference from the metric calculated from the 2017 NHTS data*
+#### Biases in various mobility metrics by region type (bias is calculated as the absolute percentage difference from the metric calculated from the 2017 NHTS data
 
 ## Effects of oscillation
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-oscillation.png)
-*Effect of not removing oscillation on a single trajectory*
+#### Effect of not removing oscillation on a single trajectory
 
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-pre-or-post-oscillation-treatment.png)
-*Effect of treating oscillation before or after pre-processing the trajectory data*
+#### Effect of treating oscillation before or after pre-processing the trajectory data
 
 ## Effects of pre-processing algorithms
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm.png)
-*Effect of pre-processing algorithm on a single trajectory using the same distance and time thresholds*
+#### Effect of pre-processing algorithm on a single trajectory using the same distance and time thresholds
 
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-on-mobility-metric.png)
-*Effect of pre-processing algorithm on different mobility metrics*
+#### Effect of pre-processing algorithm on different mobility metrics
 
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-components-on-trips.png)
-*Effect of pre-processing algorithm components on number of trips derived*
+#### Effect of pre-processing algorithm components on number of trips derived
