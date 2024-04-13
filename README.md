@@ -19,7 +19,7 @@
 3. The effects of data quality metrics on mobility metrics (e.g., trip rates) are much larger than those of socio-demographics and the built environment characteristics. 
 4. Setting different parameter values (primarily duration and spatial thresholds beyond which observations are no longer classified as clustering together) in an algorithm will lead to different inference results for the same mobility metric. Even the same parameter values (but different algorithms) will lead to different inference results for the same mobility metric. 
 
-## 2. A comparison of various datasets for transportation applications
+## II. A comparison of various datasets for transportation applications
 
 
 | Dimensions      | Household travel survey (HTS) | Online panels | LBS mobile data | Traffic counts | Smart card data |
@@ -44,7 +44,7 @@
 <sup>3</sup> A network interaction event takes place when a user interacts with an app on their mobile device. It results in a record in the LBS mobile dataset that records the location and the time of the event. \
 <sup>4</sup> Every time a user taps their smartcard on a car reader in the transit system, it results in a record that records the location and the time of the event. 
 
-## 3. Data chacteristics
+## III. Data chacteristics
 ### Describe data
 
 ![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png)
