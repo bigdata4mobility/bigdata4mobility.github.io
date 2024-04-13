@@ -1,4 +1,4 @@
-## Key takeaways about LBS mobile data as compared to HTS
+## I. Key takeaways about LBS mobile data as compared to HTS
 
 ### Data generation 
 1. LBS data itself does not any transportation related information. This means that all transportation related information must be inferred. 
@@ -19,7 +19,7 @@
 3. The effects of data quality metrics on mobility metrics (e.g., trip rates) are much larger than those of socio-demographics and the built environment characteristics. 
 4. Setting different parameter values (primarily duration and spatial thresholds beyond which observations are no longer classified as clustering together) in an algorithm will lead to different inference results for the same mobility metric. Even the same parameter values (but different algorithms) will lead to different inference results for the same mobility metric. 
 
-## A comparison of various datasets for transportation applications
+## 2. A comparison of various datasets for transportation applications
 
 
 | Dimensions      | Household travel survey (HTS) | Online panels | LBS mobile data | Traffic counts | Smart card data |
@@ -44,12 +44,13 @@
 <sup>3</sup> A network interaction event takes place when a user interacts with an app on their mobile device. It results in a record in the LBS mobile dataset that records the location and the time of the event. \
 <sup>4</sup> Every time a user taps their smartcard on a car reader in the transit system, it results in a record that records the location and the time of the event. 
 
-## Describe data
+## 3. Data chacteristics
+### Describe data
 
 ![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png)
 #### A snapshot of the big mobile data
 
-## Data stability
+### Data stability
 ![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-seattle.jpg)
 #### Changes in the number of devices (individuals) over time in the Seattle area
 
@@ -59,21 +60,21 @@
 ![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-boston.png)
 #### Changes in the number of records per device (individual) over time in the Boston area
 
-## Data quality metrics by region types
+### Data quality metrics by region types
 ![quality-metrics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-quality-metrics-by-region-type.png)
 #### Data quality metrics by region type
 
 ![quality-metrics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/biases-in-mobility-metric-by-region-type.png)
 #### Biases in various mobility metrics by region type (bias is calculated as the absolute percentage difference from the metric calculated from the 2017 NHTS data
 
-## Effects of oscillation
+### Effects of oscillation
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-oscillation.png)
 #### Effect of not removing oscillation on a single trajectory
 
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-pre-or-post-oscillation-treatment.jpg)
 #### Effect of treating oscillation before or after pre-processing the trajectory data
 
-## Effects of pre-processing algorithms
+### Effects of pre-processing algorithms
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm.png)
 #### Effect of pre-processing algorithm on a single trajectory using the same distance and time thresholds
 
