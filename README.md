@@ -1,4 +1,21 @@
-## A brief introduction of various datasets for transportation applications
+## Key takeaways about LBS mobile data (LBS data for abbreviations) as compared to HTS
+
+### Data generation 
+1. LBS data itself does not any transportation related information. This means that all transportation related information must be inferred. 
+2. LBS data does not contain any socio-demographics information, meaning that for any datasets containing such information, they are fused in. 
+
+### Data quality metrics
+1. LBS data is big,  covering a much larger share of the population in a region than HTS or online panels. 
+2. Spatially, LBS data is quite precise (e.g., close to 95% of the observations have an uncertainty radius of less than 65 meters). 
+3. Temporally, LBS data is quite sparse (e.g., add here). 
+
+### Data biases
+1. Number of records has a positive effect on trips inferred: the more records, the more trips inferred. 
+2. Temporal occupancy (defined as the number of 30-min slots in a day when a device is observed) has a positive effect on trips inferred: the more one's records are temporally covered, the more trips inferred.
+3. The effects of data quality metrics on mobility metrics (e.g., trip rates) are much larger than those of socio-demographics and the built environment characteristics. 
+4. Setting different parameter values (primarily duration and spatial thresholds beyond which observations are no longer classified as clustering together) in an algorithm will lead to different inference results for the same mobility metric. Even the same parameter values (but different algorithms) will lead to different inference results for the same mobility metric. 
+
+## A comparison of various datasets for transportation applications
 
 
 | Dimensions      | Household travel survey (HTS) | Online panels | LBS mobile data | Traffic counts | Smart card data |
