@@ -37,7 +37,7 @@
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-oscillation.png)
 #### Effect of not removing oscillation on a single trajectory
 
-![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-pre-or-post-oscillation-treatment.png)
+![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-pre-or-post-oscillation-treatment.jpg)
 #### Effect of treating oscillation before or after pre-processing the trajectory data
 
 ## Effects of pre-processing algorithms
@@ -47,5 +47,8 @@
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-on-mobility-metric.png)
 #### Effect of pre-processing algorithm on different mobility metrics
 
-![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-components-on-trips.png)
-#### Effect of pre-processing algorithm components on number of trips derived
+![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-components-on-trips.jpg)
+#### Effect of pre-processing algorithm components on number of trips
+
+![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-components-on-ROG.jpg)
+#### Effect of pre-processing algorithm components on radius of gyration
