@@ -1,8 +1,12 @@
-## Key takeaways about LBS mobile data (LBS data for abbreviations) as compared to HTS
+## Key takeaways about LBS mobile data as compared to HTS
 
 ### Data generation 
 1. LBS data itself does not any transportation related information. This means that all transportation related information must be inferred. 
 2. LBS data does not contain any socio-demographics information, meaning that for any datasets containing such information, they are fused in. 
+
+### Data stability
+1. Number of devices contained in a dataset often changes over time. 
+2. Number of records per device also changes over time. 
 
 ### Data quality metrics
 1. LBS data is big,  covering a much larger share of the population in a region than HTS or online panels. 
