@@ -50,40 +50,52 @@
 ![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe_data_boston.png)
 #### A snapshot of the big mobile data
 
-### Data stability
+## Data stability
 ![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Number_of_Devices_per_Day_for_Each_MSA_Over_Time.png)
-#### Changes in the number of devices (individuals) over time in 11 MSA areas
+#### Changes in the number of devices over time in 11 MSA areas
 
 ![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Number_of_Records_Per_Device_Over_Time_complete.png)
-#### Changes in the number of records per device (individual) over time in 11 MSA areas
+#### Changes in the number of records per device per day over time in 11 MSA areas
 
-### General data characteristics
+## General data characteristics
 ![general-characteristics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Boxplot_of_Number_of_Records_per_MSA_on_a_Log_Scale.png)
 #### Distributions of number of records per device per day in 11 MSA areas
 
-### Sparsity
+## Sparsity
 ![occupancy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_intra_day_temporal_occupancy.png)
 #### Within-day temporal occupancy in 11 MSA areas
 
 ![occupancy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_inter_day_temporal_occupancy.png)
 #### Between-day temporal occupancy in 11 MSA areas
 
-### Spatial accuracy
+## Spatial accuracy
 ![sp-accuracy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/CDFs_of_Accuracy_by_MSA.png)
 #### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
 
-### Distances between consecutive observations
+## Distances between consecutive observations
 ![jump-off-distance](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_average_Euclidean_distance.png)
 #### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
 
-### Effects of oscillation
+## Effects of oscillation
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-oscillation.png)
 #### Effect of not removing oscillation on a single trajectory
 
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-pre-or-post-oscillation-treatment.jpg)
 #### Effect of treating oscillation before or after pre-processing the trajectory data
 
-### Effects of pre-processing algorithms
+## Effects of data quality metrics and socio-demographics
+![data-quality](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-quality-and-socio-demographics.png)
+#### Effect of data quality metrics and socio-demographics
+
+## Effects of data quality metrics, socio-demographics and algorithms
+![data-quality](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-quality-algorithm-sociodemographics.png)
+#### Effect of data quality metrics, socio-demographics, and algorithms
+
+## Effects of algorithms
+![data-quality](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/mobility-metrics-algorithms.png)
+#### Effect of algorithms on mobility metrics
+
+## Effects of pre-processing algorithms
 ![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm.png)
 #### Effect of pre-processing algorithm on a single trajectory using the same distance and time thresholds
 
