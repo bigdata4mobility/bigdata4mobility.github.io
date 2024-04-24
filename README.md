@@ -11,7 +11,7 @@
 ### Data quality metrics
 1. LBS data is big,  covering a much larger share of the population in a region than HTS or online panels. 
 2. Spatially, LBS data is quite precise (e.g., close to 95% of the observations have an uncertainty radius of less than 65 meters). 
-3. Temporally, LBS data is quite sparse (e.g., add here). 
+3. Temporally, LBS data is quite sparse (e.g., within a day, the vast majority are only observed a few times). 
 
 ### Data biases
 1. Number of records has a positive effect on trips inferred: the more records, the more trips inferred. 
