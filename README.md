@@ -99,8 +99,6 @@
 ![algorithm](./assets/effect-of-algorithm.png)
 #### Effect of pre-processing algorithm on a single trajectory using the same distance and time thresholds
 
-![algorithm](./assets/effect-of-algorithm-on-mobility-metric.png)
-#### Effect of pre-processing algorithm on different mobility metrics
 
 ![algorithm](./assets/effect-of-algorithm-components-on-trips.jpg)
 #### Effect of pre-processing algorithm components on number of trips
