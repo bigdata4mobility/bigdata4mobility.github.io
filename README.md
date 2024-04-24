@@ -58,52 +58,52 @@
 #### Changes in the number of records per device per day over time in 11 MSA areas
 
 ## General data characteristics
-![general-characteristics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Boxplot_of_Number_of_Records_per_MSA_on_a_Log_Scale.png)
+![general-characteristics](./assets/Boxplot_of_Number_of_Records_per_MSA_on_a_Log_Scale.png)
 #### Distributions of number of records per device per day in 11 MSA areas
 
 ## Sparsity
-![occupancy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_intra_day_temporal_occupancy.png)
+![occupancy](./assets/Histograms_of_intra_day_temporal_occupancy.png)
 #### Within-day temporal occupancy in 11 MSA areas
 
-![occupancy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_inter_day_temporal_occupancy.png)
+![occupancy](./assets/Histograms_of_inter_day_temporal_occupancy.png)
 #### Between-day temporal occupancy in 11 MSA areas
 
 ## Spatial accuracy
-![sp-accuracy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/CDFs_of_Accuracy_by_MSA.png)
+![sp-accuracy](./assets/CDFs_of_Accuracy_by_MSA.png)
 #### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
 
 ## Distances between consecutive observations
-![jump-off-distance](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Detailed_Log-Log_Scatter_Plots_for_Each_MSA.png)
+![jump-off-distance](./assets/Detailed_Log-Log_Scatter_Plots_for_Each_MSA.png)
 #### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
 
 ## Effects of oscillation
-![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-oscillation.png)
+![oscillation](./assets/effect-of-oscillation.png)
 #### Effect of not removing oscillation on a single trajectory
 
-![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-pre-or-post-oscillation-treatment.jpg)
+![oscillation](./assets/effect-of-pre-or-post-oscillation-treatment.jpg)
 #### Effect of treating oscillation before or after pre-processing the trajectory data
 
 ## Effects of data quality metrics and socio-demographics
-![data-quality](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-quality-and-socio-demographics.png)
+![data-quality](./assets/data-quality-and-socio-demographics.png)
 #### Effect of data quality metrics and socio-demographics
 
 ## Effects of data quality metrics, socio-demographics and algorithms
-![data-quality](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-quality-algorithm-sociodemographics.png)
+![data-quality](./assets/data-quality-algorithm-sociodemographics.png)
 #### Effect of data quality metrics, socio-demographics, and algorithms
 
 ## Effects of algorithms
-![data-quality](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/mobility-metrics-algorithms.png)
+![data-quality](./assets/mobility-metrics-algorithms.png)
 #### Effect of algorithms on mobility metrics
 
 ## Effects of pre-processing algorithms
-![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm.png)
+![algorithm](./assets/effect-of-algorithm.png)
 #### Effect of pre-processing algorithm on a single trajectory using the same distance and time thresholds
 
-![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-on-mobility-metric.png)
+![algorithm](./assets/effect-of-algorithm-on-mobility-metric.png)
 #### Effect of pre-processing algorithm on different mobility metrics
 
-![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-components-on-trips.jpg)
+![algorithm](./assets/effect-of-algorithm-components-on-trips.jpg)
 #### Effect of pre-processing algorithm components on number of trips
 
-![algorithm](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-algorithm-components-on-ROG.jpg)
+![algorithm](./assets/effect-of-algorithm-components-on-ROG.jpg)
 #### Effect of pre-processing algorithm components on radius of gyration
