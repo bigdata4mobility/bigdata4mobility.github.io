@@ -44,28 +44,37 @@
 <sup>3</sup> A network interaction event takes place when a user interacts with an app on their mobile device. It results in a record in the LBS mobile dataset that records the location and the time of the event. \
 <sup>4</sup> Every time a user taps their smartcard on a car reader in the transit system, it results in a record that records the location and the time of the event. 
 
-## III. Data chacteristics
+## III. Data characteristics
 ### Describe data
 
-![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe-data-boston.png)
+![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe_data_boston.png)
 #### A snapshot of the big mobile data
 
 ### Data stability
-![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-seattle.jpg)
-#### Changes in the number of devices (individuals) over time in the Seattle area
+![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Number_of_Devices_per_Day_for_Each_MSA_Over_Time.png)
+#### Changes in the number of devices (individuals) over time in 11 MSA areas
 
-![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-seattle2.jpg)
-#### Changes in the number of records per device (individual) over time in the Seattle area
+![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Number_of_Records_Per_Device_Over_Time_complete.png)
+#### Changes in the number of records per device (individual) over time in 11 MSA areas
 
-![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-stability-boston.png)
-#### Changes in the number of records per device (individual) over time in the Boston area
+### General data characteristics
+![general-characteristics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Boxplot_of_Number_of_Records_per_MSA_on_a_Log_Scale.png)
+#### Distributions of number of records per device per day in 11 MSA areas
 
-### Data quality metrics by region types
-![quality-metrics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/data-quality-metrics-by-region-type.png)
-#### Data quality metrics by region type
+### Sparsity
+![occupancy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_intra_day_temporal_occupancy.png)
+#### Within-day temporal occupancy in 11 MSA areas
 
-![quality-metrics](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/biases-in-mobility-metric-by-region-type.png)
-#### Biases in various mobility metrics by region type (bias is calculated as the absolute percentage difference from the metric calculated from the 2017 NHTS data
+![occupancy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_inter_day_temporal_occupancy.png)
+#### Between-day temporal occupancy in 11 MSA areas
+
+### Spatial accuracy
+![sp-accuracy](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/CDFs_of_Accuracy_by_MSA.png)
+#### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
+
+### Distances between consecutive observations
+![jump-off-distance](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_average_Euclidean_distance.png)
+#### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
 
 ### Effects of oscillation
 ![oscillation](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/effect-of-oscillation.png)
