@@ -51,10 +51,10 @@
 #### A snapshot of the big mobile data
 
 ## Data stability
-![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Number_of_Devices_per_Day_for_Each_MSA_Over_Time.png)
+![stability](./assets/Number_of_Devices_per_Day_for_Each_MSA_Over_Time.png)
 #### Changes in the number of devices over time in 11 MSA areas
 
-![stability](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Number_of_Records_Per_Device_Over_Time_complete.png)
+![stability](./assets/Number_of_Records_Per_Device_Over_Time_complete.png)
 #### Changes in the number of records per device per day over time in 11 MSA areas
 
 ## General data characteristics
