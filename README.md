@@ -47,7 +47,7 @@
 ## III. Data characteristics
 ### Describe data
 
-![BostonData](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/describe_data_boston.png)
+![BostonData](./assets/describe_data_boston.png)
 #### A snapshot of the big mobile data
 
 ## Data stability
