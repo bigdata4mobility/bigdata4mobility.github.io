@@ -73,7 +73,7 @@
 #### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
 
 ## Distances between consecutive observations
-![jump-off-distance](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Histograms_of_average_Euclidean_distance.png)
+![jump-off-distance](https://github.com/bigdata4mobility/bigdata4mobility.github.io/blob/main/assets/Detailed_Log-Log_Scatter_Plots_for_Each_MSA.png)
 #### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
 
 ## Effects of oscillation
