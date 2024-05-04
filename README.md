@@ -2,7 +2,7 @@ Purpose: this webpage is created to provide some summary information about LBS d
 Audience: the intended audiences are practitioners who may or may not have used the LBS data, and have an interest in learning more about them. 
 What you will find: I) key takeaways about LBS mobile data; II) a comparison table across different datasets; and III) key characteristics of LBS mobile data
 
-LBS mobile data: Location-based service data that are passively generated from peoples' mobile devices such as smartphones. 
+LBS mobile data: Location-based service data that are passively generated from peoples' mobile devices such as smartphones. <br />
 HTS: household travel surveys
 
 ## I. Key takeaways about LBS mobile data as compared to HTS
