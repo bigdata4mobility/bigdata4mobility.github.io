@@ -1,7 +1,14 @@
+Purpose: this webpage is created to provide some summary information about LBS data, especially those that are passively generated from people's mobile devices. 
+Audience: the intended audiences are practitioners who may or may not have used the LBS data, and have an interest in learning more about them. 
+What you will find: I) key takeaways about LBS mobile data; II) a comparison table across different datasets; and III) key characteristics of LBS mobile data
+
+LBS mobile data: Location-based service data that are passively generated from peoples' mobile devices such as smartphones. 
+HTS: household travel surveys
+
 ## I. Key takeaways about LBS mobile data as compared to HTS
 
 ### Data generation 
-1. LBS data itself does not any transportation related information. This means that all transportation related information must be inferred. 
+1. LBS data itself does not contain any travel related information. This means that all travel related information (such as trips and stays) must be inferred. 
 2. LBS data does not contain any socio-demographics information, meaning that for any datasets containing such information, they are fused in. 
 
 ### Data stability
@@ -48,60 +55,41 @@
 ### Describe data
 
 ![BostonData](./assets/describe_data_boston.png)
-#### A snapshot of the big mobile data
+#### A snapshot of the LBS dataset (one can see that LBS datasets often have only a few columns or variables but many many rows)
 
 ## Data stability
 ![stability](./assets/Number_of_Devices_per_Day_for_Each_MSA_Over_Time.png)
-#### Changes in the number of devices over time in 11 MSA areas
+#### Changes in the number of devices over time in 11 MSA areas (one cannot assume data is stable over time)
 
 ![stability](./assets/Number_of_Records_Per_Device_Over_Time_complete.png)
-#### Changes in the number of records per device per day over time in 11 MSA areas
-
-## General data characteristics
-![general-characteristics](./assets/Boxplot_of_Number_of_Records_per_MSA_on_a_Log_Scale.png)
-#### Distributions of number of records per device per day in 11 MSA areas
+#### Changes in the number of records per device per day over time in 11 MSA areas (one cannot assume data is stable over time)
 
 ## Sparsity
 ![occupancy](./assets/Histograms_of_intra_day_temporal_occupancy.png)
-#### Within-day temporal occupancy in 11 MSA areas
+#### Within-day temporal occupancy in 11 MSA areas (within-day occupancy is defined as the number of 30-min slots within a day that has at least one record. The vast majority has only a few 30-minute slots observed. In other words, within a single day, there is significant data sparsity.)
 
 ![occupancy](./assets/Histograms_of_inter_day_temporal_occupancy.png)
-#### Between-day temporal occupancy in 11 MSA areas
+#### Between-day temporal occupancy in 11 MSA areas (between-day occupancy is defined as the number of days within the 6-month period that has at least one record. Over 30% of the devices are observed nearly every day. The rest are evenly distributed from 1 to 165 days.)
 
-## Spatial accuracy
+## Location accuracy
 ![sp-accuracy](./assets/CDFs_of_Accuracy_by_MSA.png)
-#### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
-
-## Distances between consecutive observations
-![jump-off-distance](./assets/Detailed_Log-Log_Scatter_Plots_for_Each_MSA.png)
-#### Cumulative distributions of spatial accuracy of observations in 11 MSA areas
+#### Cumulative distributions of location accuracy of observations in 11 MSA areas (location accuracy means the radius in meters a device can be confidently located. LBS data has high location accuracy: the vast majority have an accuracy less than 100 meters). 
 
 ## Effects of oscillation
 ![oscillation](./assets/effect-of-oscillation.png)
-#### Effect of not removing oscillation on a single trajectory
+#### Effect of not removing oscillation on a single trajectory (oscillation happens when GPS signals are obstructed, i.e., by tall buildings. not removing oscillation results a biased number of stays derived. In this case, two stays are missed.)
 
 ![oscillation](./assets/effect-of-pre-or-post-oscillation-treatment.jpg)
-#### Effect of treating oscillation before or after pre-processing the trajectory data
+#### Effect of treating oscillation before or after pre-processing the trajectory data (treating oscillation before or after processing the LBS data for trip inference can result in different results.)
 
 ## Effects of data quality metrics and socio-demographics
 ![data-quality](./assets/data-quality-and-socio-demographics.png)
-#### Effect of data quality metrics and socio-demographics
+#### Effect of data quality metrics and socio-demographics (areas with more underrepresented populations such as Black and Hispanic, areas with higher poverty level and areas with a higher level of population density tend to have lower LBS data quality). 
 
 ## Effects of data quality metrics, socio-demographics and algorithms
 ![data-quality](./assets/data-quality-algorithm-sociodemographics.png)
-#### Effect of data quality metrics, socio-demographics, and algorithms
+#### Effect of data quality metrics, socio-demographics, and algorithms (Different algorithms used to process the data for trip inference can lead to different mobility metrics such as number of trips. Compared to socio-demographics, data quality has a larger influence on the resulting mobility metrics.)
 
 ## Effects of algorithms
 ![data-quality](./assets/mobility-metrics-algorithms.png)
-#### Effect of algorithms on mobility metrics
-
-## Effects of pre-processing algorithms
-![algorithm](./assets/effect-of-algorithm.png)
-#### Effect of pre-processing algorithm on a single trajectory using the same distance and time thresholds
-
-
-![algorithm](./assets/effect-of-algorithm-components-on-trips.jpg)
-#### Effect of pre-processing algorithm components on number of trips
-
-![algorithm](./assets/effect-of-algorithm-components-on-ROG.jpg)
-#### Effect of pre-processing algorithm components on radius of gyration
+#### Effect of algorithms on mobility metrics (Different algorithms result in different mobility metric distributions.)
