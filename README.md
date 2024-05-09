@@ -1,3 +1,6 @@
+
+For any questions about the information on this page, please contact Cynthia  Chen at University of Washington at qzchen@uw.edu
+
 Purpose: this webpage is created to provide some summary information about LBS data, especially those that are passively generated from people's mobile devices. 
 Audience: the intended audiences are practitioners who may or may not have used the LBS data, and have an interest in learning more about them. 
 What you will find: I) key takeaways about LBS mobile data; II) a comparison table across different datasets; and III) key characteristics of LBS mobile data
