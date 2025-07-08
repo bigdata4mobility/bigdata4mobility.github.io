@@ -1,4 +1,6 @@
 
+[Open Source LBS Data](DATA.md)
+
 For any questions about the information on this page, please contact Cynthia  Chen at University of Washington at qzchen@uw.edu
 
 Purpose: this webpage is created to provide some summary information about LBS data, especially those that are passively generated from people's mobile devices. 
