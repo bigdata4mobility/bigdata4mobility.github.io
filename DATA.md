@@ -1,5 +1,5 @@
 
-[Back to Home](README.md)
+[Back to Home Page](README.md)
 
 # Open Source LBS Data
 This page will explore the characteristics of some of the available open source LBS data.
