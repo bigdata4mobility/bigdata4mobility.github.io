@@ -97,4 +97,6 @@ HTS: household travel surveys
 ![data-quality](./assets/mobility-metrics-algorithms.png)
 #### Effect of algorithms on mobility metrics (Different algorithms result in different mobility metric distributions.)
 
-[Open Source Data](DATA.md)
+# Open Source LBS Data
+
+For the available Open Source LBS data and their characteristics, please refer to the page [Open Source LBS Data](DATA.md).
