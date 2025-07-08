@@ -96,3 +96,5 @@ HTS: household travel surveys
 ## Effects of algorithms
 ![data-quality](./assets/mobility-metrics-algorithms.png)
 #### Effect of algorithms on mobility metrics (Different algorithms result in different mobility metric distributions.)
+
+[Open Source Data](DATA.md)
