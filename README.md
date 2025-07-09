@@ -1,5 +1,5 @@
 
-[Open Source LBS Data Page >>>](DATA.md)
+[Open Source LBS Data Page >>](DATA.md)
 
 For any questions about the information on this page, please contact Cynthia  Chen at University of Washington at qzchen@uw.edu
 

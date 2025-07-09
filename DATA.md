@@ -1,5 +1,5 @@
 
-[<<< Back to Home Page](README.md)
+[<< Back to Home Page](README.md)
 
 # Open Source LBS Data
 This page will explore the characteristics of some of the available open source LBS data.
@@ -16,38 +16,40 @@ GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) 
 
 (insert a table for variables in the dataset)
 
-### Data Stability
-- Number of devices over time
+### Data Characteristics
 
-(insert figure/statistics here)
+- **Data Stability**
+    - Number of devices over time
 
-- Number of records per device over time
+    (insert figure/statistics here)
 
-(insert figure/statistics here)
+    - Number of records per device over time
 
-### Temporal Sparsity (temporal gap)
-- Intra-day occupancy
+    (insert figure/statistics here)
 
-(insert figure/statistics here)
+- **Temporal Sparsity (temporal gap)**
+    - Intra-day occupancy
 
-- Inter-day occupancy
+    (insert figure/statistics here)
 
-(insert figure/statistics here)
+    - Inter-day occupancy
 
-### Spatial Sparsity (spatial gap)
-- Spatial gap (jumping distance in kilometers, distance bwtween consecutive pings)
+    (insert figure/statistics here)
 
-(insert figure/statistics here)
+- **Spatial Sparsity (spatial gap)**
+    - Spatial gap (jumping distance in kilometers, distance bwtween consecutive pings)
 
-### Precision
-- Spatial accuracy (uncertainty radius in meters)
+    (insert figure/statistics here)
 
-(insert figure/statistics here)
+- **Precision**
+    - Spatial accuracy (uncertainty radius in meters)
 
-### Representation
-- Representative bias (share of LBS users in the area vs. population in the same area)
+    (insert figure/statistics here)
 
-(insert figure/statistics here)
+- **Representation**
+    - Representative bias (share of LBS users in the area vs. population in the same area)
+
+    (insert figure/statistics here)
 
 
 
