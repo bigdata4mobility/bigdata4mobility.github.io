@@ -1,15 +1,20 @@
 
-[Back to Home Page](README.md)
+[<<< Back to Home Page](README.md)
 
 # Open Source LBS Data
 This page will explore the characteristics of some of the available open source LBS data.
 
 ## GeoLife
-GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) GeoLife project by 182 users in a period of over three years (from April 2007 to August 2012). [(Here is the GeoLife Data User Guide and Download Link.)](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/?msockid=0f4995297f3a650f12fc80447e91644b)
+
+[(GeoLife Data User Guide and Download Link)](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/?msockid=0f4995297f3a650f12fc80447e91644b)
+
+### Data Description
+GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) GeoLife project by 182 users in a period of over three years (from April 2007 to August 2012). (add spatial scope of the dataset?)
+
 
 ### Data Variables
 
-(insert table of variables in the dataset)
+(insert a table for variables in the dataset)
 
 ### Data Stability
 - Number of devices over time
