@@ -101,4 +101,4 @@ HTS: household travel surveys
 
 # Open Source LBS Data
 
-Please refer to the page [Open Source LBS Data](DATA.md) for the available Open Source LBS data and their characteristics. 
+Please refer to the page [Open Source LBS Data](LBS_data.md) for the available Open Source LBS data and their characteristics. 
