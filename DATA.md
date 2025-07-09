@@ -9,7 +9,7 @@ This page will explore the characteristics of some of the available open source 
 [(GeoLife Data User Guide and Download Link)](https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/?msockid=0f4995297f3a650f12fc80447e91644b)
 
 ### Data Description
-GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) GeoLife project by 182 users in a period of over three years (from April 2007 to August 2012). (add spatial scope of the dataset?)
+GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) GeoLife project by 182 users in a period of over three years (from April 2007 to August 2012). (Add spatial scope of the dataset?)
 
 
 ### Data Variables
