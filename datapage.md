@@ -56,7 +56,23 @@
 
 ---
 
-### **4 Precision (stationary-spread proxy)**
+### **4 Sampling Rate (temporal gap)**  
+*Temporal gap – the time interval, in seconds, between consecutive pings*
+
+| Figure | Summary statistics (seconds) | Statistical definition |
+|--------|-----------------------------|------------------------|
+| ![Gap-time histogram](geolife_gap_time_hist_clean.png) | count = 24 136 350, mean = 3.62, std = 14.55, min = 1, P50 = 2, P90 = 5, P95 = 5, P99 = 16, max = 600 | For each device, sort records chronologically and measure the interval between successive timestamps; discard duplicate-second events (Δt = 0 s) and treat gaps > 10 min as trajectory breaks, thereby focusing on regular sampling behaviour |
+
+**Method overview**  
+The consecutive-ping sampling rate is characterised by computing time differences between adjacent observations on a per-device basis.  
+Intervals equal to zero seconds (simultaneous duplicate records) are removed, while gaps exceeding ten minutes are considered interruptions and excluded from the analysis to obtain a representative distribution of routine acquisition intervals.
+
+**Interpretation**  
+The median sampling interval is only 2 s and 99 % of valid intervals are ≤ 16 s, confirming that GeoLife trajectories were collected at sub-minute frequency for virtually the entire dataset. The trimmed mean of 3.6 s indicates extremely fine temporal resolution, well suited for micro-mobility or mode-detection studies. The residual tail to 10 min reflects brief device suspensions but is sufficiently rare not to compromise temporal continuity.
+
+---
+
+### **5 Precision (stationary-spread proxy)**
 
 | Axis | Mean (m) | Median (m) | P90 (m) | Max (m) |
 |------|---------:|-----------:|--------:|--------:|
