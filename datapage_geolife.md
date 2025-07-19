@@ -73,7 +73,7 @@
 | 75th percentile   |  2788.00 |  214.00 | 2696.25 | 3525.25 | 1711.25 | 3085.00 | 1553.50 |
 | max               | 59769.00 | 20362.00 | 59769.00 | 50933.00 | 23799.00 | 56780.00 | 44808.00 |
 
-**Findings**: From 2007 to 2012, the number of records each device sends per day changes a lot. On average a device logs about 2,232 records, but half the devices stay below 1,183 while the busiest day reaches 59,769. The mean is only 382 in 2007 (most days fall between 37 and 214 records, standard deviation around 1,489). Activity climbs to 2,711 in 2009 and peaks at 2,881 in 2011; these two years also spread the widest, with 75 % of daily values under roughly 3,525 and standard deviations above 3,200 (topping 5,300 in 2011). In 2012 the mean drops to 1,490. The time-series plot shows the same story — many sharp spikes instead of a smooth curve—so the data load jumps day to day and year to year rather than rising or falling steadily.
+**Findings**: From 2007 to 2012, the number of records each device sends per day changes a lot. On average a device logs about 2232 records, but half the devices stay below 1183 while the busiest day reaches 59769. The mean is only 382 in 2007 (most days fall between 37 and 214 records). The average daily number of records per device climbs to 2711 in 2009, drops to 1620 in 2010, peaks at 2881 in 2011, and then drops to 1490 in 2012. The time-series plot shows the same story — many sharp spikes instead of a smooth curve—so the data jumps day to day and year to year rather than rising or falling steadily.
 
 ---
 
@@ -83,7 +83,7 @@ Temporal sparsity was investigated via two measures: intra-day temporal occupanc
 
 ### 2.1 Intra-day Temporal Occupancy
 
-**Description**: One of the metric for temporal sparsity is intra-day temporal occupancy, which measures the number of 30-minute time slots in a day in which a device was observed at least once. This measure is to capture the potential data sparsity within the day. For each 30 minites time slot, we count how many trajectories (a sequence of records for a device in one day) contain records for the corresponding time slot and plot the percent of the number of trajectories for each time slot to the total number of trajectories. We do calculations for each year and whole time period (all years).
+**Description**: Intra-day temporal occupancy measures the number of 30-minute time slots in a day in which a device was observed at least once (in the time slot). This measure is to capture the potential data sparsity within the day. For each 30 minites time slot, we count how many trajectories (a sequence of records for a device in one day) contain records for the corresponding time slot and plot the percent of the number of trajectories for each time slot to the total number of trajectories. We do calculations for each year and whole time period (all years).
 
 | Figure | Figure |
 |--------|--------|
@@ -113,7 +113,7 @@ The horizontal axis is each number of 30-minute time slots in one day (there are
 
 ### 2.2 Inter-day Temporal Occupancy
 
-**Description**: The other metric for temporal sparsity is inter-day occupancy, which measures the number of days during which a device was observed at least once within a time period (e.g., 6 months or one year). This measure is to capture the data sparsity across different days within a time period. The GeoLife data was collected from April 2007 to August 2012 (total 1980 days), thus the inter-day occupancy we calculated for the whole study period (all years) are out of the total 1980 days, for 2007 and 2012 it is out of a partial year for 2007 (275 days) and 2012 (244 days), and for the other years (2008-2011), it is out of full one year.
+**Description**: Inter-day occupancy measures the number of days within a time period (e.g., 6 months or one year) during which a device was observed at least once (in the day). This measure is to capture the data sparsity across different days within a time period. The GeoLife data was collected from April 2007 to August 2012 (total 1980 days), thus the inter-day occupancy we calculated for the whole study period (all years) are out of the total 1980 days, for 2007 and 2012 it is out of a partial year for 2007 (275 days) and 2012 (244 days), and for the other years (2008-2011), it is out of full one year.
 
 | Figure | Figure |
 |--------|--------|
@@ -139,7 +139,7 @@ The horizontal axis is the number of days each device (user_id) was observed dur
 | 75th percentile | 167.50 | 32 | 123 | 165 | 132.75 | 125 | 169 |
 | Maximum | 1 934 | 242 | 350 | 365 | 365 | 365 | 209 |
 
-**Findings**: Most devices are seen only part-time. Across the whole study window (1980 days), half of the devices (User_IDs) appear on at most 71 days, and 75 % of them show up on fewer than 168 days (less than 10% of the total number of days). Only a small group is tracked for long stretches, but one very persistent device is present on 1934 days. Year-by-year patterns echo this limited reach: in 2007 (total 275 days in the study period) the average number of days a device was observed is just 42 days, while in 2010 and 2011 the mean hovers a bit over 90 days out of 365 days. Two years stand out: in 2009 a typical device is recorded on 106 of the 365 days (about 29 % of the year); and in 2012—when data run only from 1 January to 31 August (244 days)—the mean rises to 135 days, or roughly 55 % of the study period.
+**Findings**: Most devices are seen only part-time. Across the whole study window (1980 days), half of the devices appear on at most 71 days, and 75 % of them show up on fewer than 168 days (less than 10% of the total number of days in the study period). Only a small group is tracked for long stretches, but one very persistent device is present on 1934 days. Year-by-year patterns echo this limited reach: in 2007 (total 275 days in the study period) the average number of days a device was observed is just 42 days, while in 2008, 2010 and 2011 the mean hovers over 90 days out of 365 days. Two years stand out: in 2009 a typical device is recorded on 106 of the 365 days (about 29 % of the year); and in 2012—when data run only from 1 January to 31 August (244 days)—the mean rises to 135 days, or roughly 55 % of the study period.
 
 ---
 
