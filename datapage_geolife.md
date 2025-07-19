@@ -42,8 +42,8 @@
 
 **Summary statistics** of *number of device per day* for different years
 
-| Statistic | Value&nbsp;(all&nbsp;years) | 2007 | 2008 | 2009 | 2010 | 2011 | 2012 |
-|-----------|----------------------------|------|------|------|------|------|------|
+| Statistic | All years | 2007 | 2008 | 2009 | 2010 | 2011 | 2012 |
+|-----------|-----------|------|------|------|------|------|------|
 | Mean | 5.93 | 3.32 | 10.54 | 11.70 | 2.43 | 2.74 | 2.21 |
 | Standard deviation | 6.24 | 2.14 | 6.67 | 7.83 | 1.24 | 1.34 | 1.07 |
 | Minimum | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
@@ -53,7 +53,7 @@
 | Maximum | 29 | 11 | 28 | 29 | 8 | 9 | 5 |
 
 
-**Findings**: The daily number of active devices (devices that have records on the corresponding date) ranges from 1 to 29, with an overall mean of 5.93, a median of 3, an inter-quartile range of 2 to 8, and a standard deviation of 6.24. The yearly averages fluctuate markedly: the mean is 3.32 devices in 2007, rises to 10.54 in 2008 and peaks at 11.70 in 2009, then falls to roughly 2–3 devices per day during 2010–2012, showing that this metric varies substantially over time rather than remaining stable.
+**Findings**: From 2007 to 2012, the daily number of active devices (devices that have records on the corresponding date) ranges from 1 to 29, with an overall mean of 5.93, a median of 3, an inter-quartile range of 2 to 8, and a standard deviation of 6.24. The yearly averages fluctuate markedly: the mean is 3.32 devices in 2007, rises to 10.54 in 2008 and peaks at 11.70 in 2009, then falls to roughly 2–3 devices per day during 2010–2012, showing that this metric varies substantially over time rather than remaining stable.
 
 ### 1.2 Number of records per device per day over time
 
@@ -63,7 +63,7 @@
 
 **Summary statistics** of *number of records per device per day* for different years
 
-| Statistic         |  Overall |   2007 |   2008 |   2009 |   2010 |   2011 |   2012 |
+| Statistic         |  All years |   2007 |   2008 |   2009 |   2010 |   2011 |   2012 |
 |-------------------|---------:|-------:|-------:|-------:|-------:|-------:|-------:|
 | mean              |  2231.92 |  381.82 | 2126.66 | 2710.54 | 1620.70 | 2880.78 | 1490.19 |
 | std               |  3443.03 | 1488.90 | 3403.61 | 3274.69 | 2290.50 | 5298.79 | 2869.91 |
@@ -79,11 +79,11 @@
 
 ### **2. Temporal Sparsity** 
 
-Temporal sparsity was investigated via two measures: inter-day and intra-day sparsity, quantifying how the device's observations were distributed across different times within a day and across different days.
+Temporal sparsity was investigated via two measures: intra-day temporal occupancy and inter-day temporal occupancy, quantifying how the device's observations were distributed across different times within a day and across different days.
 
 ### 2.1 Intra-day Temporal Occupancy
 
-**Description**: One of the metric for temporal sparsity is intra-day temporal occupancy, which measures the number of 30-minute time slots in a day in which a device was observed at least once. This measure is to capture the potential data sparsity within the day. For each 30 minites time slot, we count how many trajectories (a sequence of records for a device in one day) contain records for the corresponding time slot and plot the percent of the number of trajectories for each time slot to the total number of trajectories. We do calculation for each year and whole time period (all years).
+**Description**: One of the metric for temporal sparsity is intra-day temporal occupancy, which measures the number of 30-minute time slots in a day in which a device was observed at least once. This measure is to capture the potential data sparsity within the day. For each 30 minites time slot, we count how many trajectories (a sequence of records for a device in one day) contain records for the corresponding time slot and plot the percent of the number of trajectories for each time slot to the total number of trajectories. We do calculations for each year and whole time period (all years).
 
 | Figure | Figure |
 |--------|--------|
@@ -94,7 +94,7 @@ Temporal sparsity was investigated via two measures: inter-day and intra-day spa
 ![trajectory_slot_coverage_hist](figures_geolife/trajectory_slot_coverage_overall.png)
 
 Description of the figures:
-The horizontal axis is each number of 30-minute time slots in one day (there are 48 30-minute time slots in one day, ranging from 1 to 48), and the vertical axis is the percent of daily trajectories recorded in the corresponding number of time slots to the total trajectories. We plot the distribution of the intra-day occupancy for each year and whole time period (all years).
+The horizontal axis is each number of 30-minute time slots in one day (there are 48 30-minute time slots in one day, ranging from 1 to 48), and the vertical axis is the percent (share) of daily trajectories recorded in the corresponding number of time slots to the total trajectories. We plot the distribution of the intra-day occupancy for each year and whole time period (all years).
 
 **Summary statistics** of *Intra-day occupancy*: number of time slots in one day a device was observed (slot size = 30 min, total 48 slots in one day)
 
@@ -109,11 +109,11 @@ The horizontal axis is each number of 30-minute time slots in one day (there are
 | Maximum | 48 | 29 | 46 | 48 | 33 | 39 | 35 |
 
 
-**Findings**: Most daily traces are short. Across all years a device is seen in about 8 of the 48 half-hour slots per day on average—roughly 4 hours—but half of the traces last 3 hours or less, and one in four lasts only 1 ½ hours. The long tail is clear: a few traces span the full 24 hours, yet most do not reach even half the day. Year-by-year, 2009 stands out with the longest coverage (mean 9.4 slots; median 8 slots), and 2008 is next (mean 7.4 slots; median 6 slots). By contrast, 2007, 2010, 2011, and 2012 all hover near 5–6 slots on average, with medians of just 4 slots (2 hours). These patterns confirm that daily recording intensity varies by year and is usually modest, with only a small share of days capturing long, continuous movement.
+**Findings**: Most daily traces are short. Across all years a device is seen in about 8 of the 48 half-hour slots per day on average—roughly 4 hours—but half of the traces last 3 hours or less, and one in four lasts only 1 ½ hours. The long tail is clear: only a small share of trajectories had their locations observed at each time slot (48 slots) in a day, yet most do not reach even half the day. Year-by-year, 2009 stands out with the longest coverage (mean 9.4 slots; median 8 slots), and 2008 is next (mean 7.4 slots; median 6 slots). By contrast, 2007, 2010, 2011, and 2012 all hover near 5–6 slots on average, with medians of just 4 slots (2 hours). These patterns indicate that the intensity of daily recordings differs across years.
 
 ### 2.2 Inter-day Temporal Occupancy
 
-**Description**: The other metric for temporal sparsity is inter-day temporal occupancy, which measures the number of days within a time period (e.g., 6 months or one year) during which days a device was observed at least once. This measure is to capture the data sparsity across different days within a time period. The GeoLife data was collected from April 2007 to August 2012 (total 1980 days), thus the inter-day occupancy we calculated for the whole study period (all years) are out of the total 1980 days, for 2007 and 2012 it is out of a partial year for 2007 (275 days) and 2012 (244 days), and for the other years (2008-2011), it is out of full one year.
+**Description**: The other metric for temporal sparsity is inter-day occupancy, which measures the number of days during which a device was observed at least once within a time period (e.g., 6 months or one year). This measure is to capture the data sparsity across different days within a time period. The GeoLife data was collected from April 2007 to August 2012 (total 1980 days), thus the inter-day occupancy we calculated for the whole study period (all years) are out of the total 1980 days, for 2007 and 2012 it is out of a partial year for 2007 (275 days) and 2012 (244 days), and for the other years (2008-2011), it is out of full one year.
 
 | Figure | Figure |
 |--------|--------|
