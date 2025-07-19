@@ -83,7 +83,7 @@ Temporal sparsity was investigated via two measures: intra-day temporal occupanc
 
 ### 2.1 Intra-day Temporal Occupancy
 
-**Description**: Intra-day temporal occupancy measures the number of 30-minute time slots in a day in which a device was observed at least once (in the time slot). This measure is to capture the potential data sparsity within the day. For each 30 minites time slot, we count how many trajectories (a sequence of records for a device in one day) contain records for the corresponding time slot and plot the percent of the number of trajectories for each time slot to the total number of trajectories. We do calculations for each year and whole time period (all years).
+**Description**: Intra-day temporal occupancy measures the number of 30-minute time slots (total 48 slots) in a day in which a device was observed at least once (in the time slot). This measure is to capture the potential data sparsity within the day. For each trajectory (a sequence of records for a device in one day), we count how many 30-minute time slots the records of the trajectory cover and plot the percent of the number of trajectories with each number of 30-minute time slots to the total number of trajectories. We do calculations for each year and whole time period (all years).
 
 | Figure | Figure |
 |--------|--------|
@@ -93,7 +93,7 @@ Temporal sparsity was investigated via two measures: intra-day temporal occupanc
 
 ![trajectory_slot_coverage_hist](figures_geolife/trajectory_slot_coverage_overall.png)
 
-Description of the figures:
+**Figure Description**:
 The horizontal axis is each number of 30-minute time slots in one day (there are 48 30-minute time slots in one day, ranging from 1 to 48), and the vertical axis is the percent (share) of daily trajectories recorded in the corresponding number of time slots to the total trajectories. We plot the distribution of the intra-day occupancy for each year and whole time period (all years).
 
 **Summary statistics** of *Intra-day occupancy*: number of time slots in one day a device was observed (slot size = 30 min, total 48 slots in one day)
@@ -123,7 +123,7 @@ The horizontal axis is each number of 30-minute time slots in one day (there are
 
 Total number of days for April 2007 - August 2012: 1980![inter-day hist across 2007-2012](figures_geolife/inter_day_span_distribution.png)
 
-Description of the Figure:
+**Figure Description**:
 The horizontal axis is the number of days each device (user_id) was observed during a specific time period (e.g., one year), and the vertical axis is the percent of the number of device (user_ids) with the corresponding value in number of days observed to the total number of devices (user_ids).
 
 **Summary statistics** of *Inter-day occupancy*: number of days a device was oberved during a specific time period
