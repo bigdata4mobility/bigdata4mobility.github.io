@@ -23,7 +23,7 @@ GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) 
 | Temporal Sparsity | Inter-day occupancy (numbre of days observed within a time period - out of data period of 1980 days) | 174.41 | 318.56 | 1 | 11 | 71 | 167.50 | 1934 |
 | Temporal Gap | Time interval between consecutive location observations for a single device (seconds) | 109.61 | 46,652.38 | 0 | 1 | 2 | 5 | 1,257,394 |
 | Spatial Gap | Spatial distance between consecutive location observations for a single device (meters) | 73.24 | 11,919.00 | 0 | 2.36 | 8.73 | 17.64 | 11,129,650 |
-| Precision |  Spatial uncertainty radius(meters) | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Precision |  Spatial uncertainty radius (meters) | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
 | Representation | Share of the LBS users vs. pupulation in the same area | 182 users vs. 19,612,368 population in Beijing, China (2010 6th China Census) |
 
 

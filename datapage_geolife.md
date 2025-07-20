@@ -200,7 +200,7 @@ The spatial accuracy (uncertainty radius) information is not provided in the Geo
 
 ---
 
-### **5. Representation**
+### **6. Representation**
 
 The information about how the 182 users were selected to participate in the GeoLife data project has not been found. This group is compared to a larger population of 19,612,368 in Beijing, China, based on the 2010 6th China Census [(Source: Data from National Bureau of Statistics of China)](https://www.stats.gov.cn/sj/pcsj/rkpc/6rp/html/A0101a.htm).
 
