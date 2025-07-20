@@ -31,6 +31,6 @@ GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) 
 ---
 ## 2. Other Open Source LBS Data
 
-Other open source LBS datasets will be added later when identified.
+Other open source LBS datasets will be added when identified and explored.
 
 
