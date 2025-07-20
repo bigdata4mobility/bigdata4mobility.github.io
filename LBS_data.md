@@ -13,6 +13,17 @@ This page will explore some of the available open source LBS datasets.
 ### Data Description
 GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) GeoLife project by 182 users in a period of over three years (from April 2007 to August 2012). The majority of the data was created in Beijing, China (although this dataset is distributed in over 30 cities of China and even in some cities located in the USA and Europe). The GeoLife User Guide reported a variety of sampling rates: 91 percent of the trajectories are logged in a dense representation, e.g. every 1 to 5 seconds or every 5 to 10 meters per point.
 
+| Property | Metrics | Mean | Std | Min | 25% | 50% | 75% | Max |
+|----------|---------|------|----------|-----|-----|-----|-----|-----|
+| Data Stability | Number of devices per day | 5.93 | 6.24 | 1 | 2 | 3 | 8 | 29 |
+| Data Statility | Number of records per device per day | 2231.92 | 3443.03 | 1.00 | 457.00 | 1183.00 | 2788.00 | 59769.00 |
+| Temporal Sparsity | Intra-day occupancy (number of 30-min time slots observed in a day - out of 48 time slots) | 7.60 | 6.31 | 1 | 3 | 6 | 10 | 48 |
+| Temporal Sparsity | Inter-day occupancy (numbre of days observed within a time period - out of data period of 1980 days) | 174.41 | 318.56 | 1 | 11 | 71 | 167.50 | 1934 |
+| Sampling Rate | Temporal gap between consecutive points (seconds) | 109.61 | 46,652.38 | 0 | 1 | 2 | 5 | 1,257,394 |
+| Spatial Gap | Spatial gap between consecutive points (meters) | 73.24 | 11,919.00 | 0 | 2.36 | 8.73 | 17.64 | 11,129,650 |
+| Precision |  Spatial accuracy (radius) | n/a |
+
+
 [More detailed characteristics of GeoLife Data >>](datapage_geolife.md) 
 
 ---

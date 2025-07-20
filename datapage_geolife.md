@@ -73,7 +73,7 @@
 | 75th percentile   |  2788.00 |  214.00 | 2696.25 | 3525.25 | 1711.25 | 3085.00 | 1553.50 |
 | max               | 59769.00 | 20362.00 | 59769.00 | 50933.00 | 23799.00 | 56780.00 | 44808.00 |
 
-**Findings**: From 2007 to 2012, the number of records each device sends per day changes a lot. On average a device logs about 2,232 records, but half the devices stay below 1,183 while the busiest day reaches 59,769. The mean is only 382 in 2007 (most days fall between 37 and 214 records). The average daily number of records per device climbs to 2,711 in 2009, drops to 1,620 in 2010, peaks at 2,881 in 2011, and then drops to 1,490 in 2012. The time-series plot shows the same story — many sharp spikes instead of a smooth curve—so the data jumps day to day and year to year rather than rising or falling steadily.
+**Findings**: From 2007 to 2012, the number of records per device per day changes a lot. On average a device logs about 2,232 records, but half the devices stay below 1,183 while at some day reaches 59,769. The mean is only 382 in 2007 (most days fall between 37 and 214 records). The average daily number of records per device climbs to 2,711 in 2009, drops to 1,620 in 2010, peaks at 2,881 in 2011, and then drops to 1,490 in 2012. The time-series plot shows the same story — many sharp spikes instead of a smooth curve — so the data jumps day to day and year to year rather than rising or falling steadily.
 
 ---
 
@@ -94,7 +94,7 @@ Temporal sparsity was investigated via two measures: intra-day temporal occupanc
 ![trajectory_slot_coverage_hist](figures_geolife/trajectory_slot_coverage_overall.png)
 
 **Figure Description**:
-The horizontal axis is each number of 30-minute time slots in one day (there are 48 30-minute time slots in one day, ranging from 1 to 48), and the vertical axis is the percent (share) of daily trajectories recorded in the corresponding number of time slots to the total trajectories. We plot the distribution of the intra-day occupancy for each year and whole time period (all years).
+The horizontal axis is each number of 30-minute time slots in one day (there are 48 30-minute time slots in one day, ranging from 1 to 48), and the vertical axis is the percent of daily trajectories recorded in the corresponding number of time slots to the total trajectories. We plot the distribution of the intra-day occupancy for each year and whole time period (all years).
 
 **Summary statistics** of *Intra-day occupancy*: number of time slots in one day a device was observed (slot size = 30 min, total 48 slots in one day)
 
@@ -113,7 +113,7 @@ The horizontal axis is each number of 30-minute time slots in one day (there are
 
 ### 2.2 Inter-day Temporal Occupancy
 
-**Description**: Inter-day temporal occupancy measures the number of days within a time period (e.g., 6 months or one year) during which a device was observed at least once (in the day). This measure is to capture the data sparsity across different days within a time period. The GeoLife data was collected from April 2007 to August 2012 (total 1980 days), thus the inter-day occupancy we calculated for the whole study period (all years) are out of the total 1980 days, for 2007 and 2012 it is out of a partial year for 2007 (275 days) and 2012 (244 days), and for the other years (2008-2011), it is out of full one year.
+**Description**: Inter-day temporal occupancy measures the number of days within a time period (e.g., 6 months, one year, or the time period covered by the dataset) during which a device was observed at least once (in the day). This measure is to capture the data sparsity across different days within a time period. The GeoLife data was collected from April 2007 to August 2012 (total 1980 days), thus the inter-day occupancy we calculated for the whole study period (all years) are out of the total 1980 days, for 2007 and 2012 it is out of a partial year for 2007 (275 days) and 2012 (244 days), and for the other years (2008-2011), it is out of full one year.
 
 | Figure | Figure |
 |--------|--------|
@@ -177,13 +177,13 @@ The horizontal axis is the number of days each device (user_id) was observed dur
 
 | Statistic | Value (meters) |
 |-----------|-----------|
-| Mean | 73.24063 |
+| Mean | 73.24 |
 | Standard deviation | 11,919.00 |
 | Minimum | 0 |
-| 25th percentile | 2.369673 |
-| Median | 8.731946 |
-| 75th percentile | 17.64321 |
-| 95th percentile | 66.7 |
+| 25th percentile | 2.36 |
+| Median | 8.73 |
+| 75th percentile | 17.64 |
+| 95th percentile | 66.70 |
 | 99th percentile | 190.95 |
 | Maximum | 11,129,650 |
 
