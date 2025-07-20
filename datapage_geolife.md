@@ -73,7 +73,7 @@
 | 75th percentile   |  2788.00 |  214.00 | 2696.25 | 3525.25 | 1711.25 | 3085.00 | 1553.50 |
 | max               | 59769.00 | 20362.00 | 59769.00 | 50933.00 | 23799.00 | 56780.00 | 44808.00 |
 
-**Findings**: From 2007 to 2012, the number of records per device per day changes a lot. On average a device logs about 2,232 records, but half the devices stay below 1,183 while at some day reaches 59,769. The mean is only 382 in 2007 (most days fall between 37 and 214 records). The average daily number of records per device climbs to 2,711 in 2009, drops to 1,620 in 2010, peaks at 2,881 in 2011, and then drops to 1,490 in 2012. The time-series plot shows the same story — many sharp spikes instead of a smooth curve — so the data jumps day to day and year to year rather than rising or falling steadily.
+**Findings**: From 2007 to 2012, the number of records per device per day changes a lot. On average a device logs about 2,232 records a day, but half the devices stay below 1,183 while at some day reaches 59,769. The mean is only 382 in 2007 (most days fall between 37 and 214 records). The average daily number of records per device climbs to 2,711 in 2009, drops to 1,620 in 2010, peaks at 2,881 in 2011, and then drops to 1,490 in 2012. The time-series plot shows the same story — many sharp spikes instead of a smooth curve — so the data jumps day to day and year to year rather than rising or falling steadily.
 
 ---
 
