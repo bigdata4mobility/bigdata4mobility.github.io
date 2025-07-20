@@ -13,6 +13,7 @@ This page will explore some of the available open source LBS datasets.
 ### Data Description
 GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) GeoLife project by 182 users in a period of over three years (from April 2007 to August 2012). The majority of the data was created in Beijing, China (although this dataset is distributed in over 30 cities of China and even in some cities located in the USA and Europe). The GeoLife User Guide reported a variety of sampling rates: 91 percent of the trajectories are logged in a dense representation, e.g. every 1 to 5 seconds or every 5 to 10 meters per point.
 
+**Summary Statistics of Metrics for GeoLife Data Property**
 | Property | Metrics | Mean | Std | Min | 25% | 50% | 75% | Max |
 |----------|---------|------|----------|-----|-----|-----|-----|-----|
 | Data Stability | Number of devices per day | 5.93 | 6.24 | 1 | 2 | 3 | 8 | 29 |
@@ -24,7 +25,7 @@ GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) 
 | Precision |  Spatial accuracy (radius) | n/a | - | - | - | - | - | - |
 
 
-[More detailed characteristics of GeoLife Data >>](datapage_geolife.md) 
+[More detailed study and discussion of characteristics of GeoLife Data >>](datapage_geolife.md) 
 
 ---
 ## 2. Other Open Source LBS Data
