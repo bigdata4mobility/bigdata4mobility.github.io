@@ -143,11 +143,13 @@ The horizontal axis is the number of days each device (user_id) was observed dur
 
 ---
 
-### **3. Sampling Rate (temporal gap)**  
+### **3. Temporal Gap**  
+
+**Description**: Temporal gap refers to the time interval between consecutive location observations for a single device in LBS data. It is another indicator of data continuity. A small temporal gap implies high-frequency location sampling, while large temporal gaps suggest that significant portions of a user’s movement may go unobserved.
 
 | Figure | Figure discription |
 |--------|-----------------------------|
-| ![Gap-time histogram](figures_geolife/temporal_gap_up_to_99th_pct.png) | The horizontal axis represents the temporal gap value (in seconds), and the vertical axis represents the number of records corresponding to the temporal gap value. (The upper bound of the horizontal axis is set at the 99th percentile of the gap distribution.)|
+| ![Gap-time histogram](figures_geolife/temporal_gap_up_to_99th_pct.png) | The horizontal axis represents the temporal gap value (time interval in seconds) for a device, and the vertical axis represents the number of records corresponding to the temporal gap value. (The upper bound of the horizontal axis is set at the 99th percentile of the gap distribution.)|
 
 **Summary statistics** of *temporal gaps (seconds)*
 
@@ -163,15 +165,17 @@ The horizontal axis is the number of days each device (user_id) was observed dur
 | 99th percentile| 21 |
 | Maximum | 1,257,394 |
 
-**Findings**: Most pairs of points are recorded very close in time: 50 % are within 2 seconds, 95 % within 5 seconds, and 99 % within 21 seconds, showing a generally high sampling rate. Only a few very long gaps — up to about 1.26 million seconds (nearly 4 years) — pull the average up to 110 s and give a wide spread, so the distribution is strongly right-skewed. 
+**Findings**: Most pairs of points are recorded very close in time: 50 % are within 2 seconds, 95 % within 5 seconds, and 99 % within 21 seconds, indicating that the majority of observations occur within short intervals in GeoLife data. Only a few very long gaps — up to about 1.26 million seconds (nearly 4 years) — pull the average up to 110 seconds and give a wide spread, so the distribution is strongly right-skewed. 
 
 ---
 
-### **4. Spatial Sparsity (spatial gap)**
+### **4. Spatial Gap**
+
+**Description**: Spatial gap (also termed “jumping distance”) refers to the distance between consecutive location observations for a single device in LBS data. It is a critical metric for assessing the continuity and reliability of reconstructed travel trajectories. A small spatial gap suggests frequent location updates, while large spatial gaps indicate that a user's location was not observed for an extended portion of their movement, potentially missing entire trips or key trajectory segments.
 
 | Figure | Figure description |
 |--------|------------------|
-| ![Gap histogram](figures_geolife/spatialgap.png) | The horizontal axis represents the distance (in meters) between two adjacent records, and the vertical axis represents the number of records with the corresponding distance. (The upper bound of the horizontal axis is set at the 95th percentile of the gap distribution.) |
+| ![Gap histogram](figures_geolife/spatialgap.png) | The horizontal axis represents the distance (in meters) between two adjacent records for a device, and the vertical axis represents the number of records with the corresponding distance. (The upper bound of the horizontal axis is set at the 95th percentile of the gap distribution.) |
 
 **Summary statistics** of *spatial gaps (meters)*
 
@@ -187,11 +191,17 @@ The horizontal axis is the number of days each device (user_id) was observed dur
 | 99th percentile | 190.95 |
 | Maximum | 11,129,650 |
 
-**Findings**: The spatial gap distribution is strongly right-skewed: the mean distance between consecutive GPS points is about 73 m, yet the standard deviation exceeds 11 km. The 25th, 50th, and 75th percentiles are roughly 2.4 m, 8.7 m, and 17.6 m, respectively, indicating that three-quarters of gaps are below 18 m. The minimum gap is 0 m, whereas the maximum exceeds 11 000 km, revealing the presence of a small number of extreme long-distance intervals within the data.
+**Findings**: The spatial gap distribution is strongly right-skewed: the mean distance between consecutive location observations for device is about 73 m, yet the standard deviation exceeds 11 km. The 25th, 50th, and 75th percentiles are roughly 2.4 m, 8.7 m, and 17.6 m, respectively, indicating that three-quarters of gaps are below 18 m. The minimum gap is 0 m, whereas the maximum exceeds 11 000 km, revealing the presence of a small number of extreme long-distance intervals within the data.
 
 ---
 
 ### **5. Precision**
-The spatial accuracy (radius) information is not provided in the GeoLife data, so the spatial precision of the data is unknown.
+The spatial accuracy (uncertainty radius) information is not provided in the GeoLife data, so the spatial precision of the GeoLife data is unknown.
 
 ---
+
+### **5. Representation**
+
+The information about how the 182 users were selected to participate in the GeoLife data project has not been found. This group is compared to a larger population of 19,612,368 in Beijing, China, based on the 2010 6th China Census [(Source: Data from National Bureau of Statistics of China)](https://www.stats.gov.cn/sj/pcsj/rkpc/6rp/html/A0101a.htm).
+
+The lack of details on how these 182 users were selected introduces potential representation bias. Without information on the selection criteria, it is unclear whether this sample accurately reflects the broader Beijing population, which may have varied demographics and behaviors. If the sample was not randomly chosen, it could overrepresent certain groups (e.g., tech-savvy individuals) or underrepresent others (e.g., people with limited access to technology), affecting the generalizability of the data to the entire population.

@@ -21,9 +21,10 @@ GeoLife data is a GPS trajectory dataset collected in (Microsoft Research Asia) 
 | Data Statility | Number of records per device per day | 2231.92 | 3443.03 | 1 | 457 | 1183 | 2788 | 59769 |
 | Temporal Sparsity | Intra-day occupancy (number of 30-min time slots observed in a day - out of 48 time slots) | 7.60 | 6.31 | 1 | 3 | 6 | 10 | 48 |
 | Temporal Sparsity | Inter-day occupancy (numbre of days observed within a time period - out of data period of 1980 days) | 174.41 | 318.56 | 1 | 11 | 71 | 167.50 | 1934 |
-| Sampling Rate | Temporal gap between consecutive points (seconds) | 109.61 | 46,652.38 | 0 | 1 | 2 | 5 | 1,257,394 |
-| Spatial Gap | Spatial gap between consecutive points (meters) | 73.24 | 11,919.00 | 0 | 2.36 | 8.73 | 17.64 | 11,129,650 |
-| Precision |  Spatial accuracy (radius) | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Temporal Gap | Time interval between consecutive location observations for a single device (seconds) | 109.61 | 46,652.38 | 0 | 1 | 2 | 5 | 1,257,394 |
+| Spatial Gap | Spatial distance between consecutive location observations for a single device (meters) | 73.24 | 11,919.00 | 0 | 2.36 | 8.73 | 17.64 | 11,129,650 |
+| Precision |  Spatial uncertainty radius(meters) | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
+| Representation | Share of the LBS users vs. pupulation in the same area | 182 users vs. 19,612,368 population in Beijing, China (2010 6th China Census) |
 
 
 [More detailed study and discussion of characteristics of GeoLife Data >>](datapage_geolife.md) 
